@@ -465,7 +465,7 @@ plt.tick_params(axis='x', colors='black')
 plt.tick_params(axis='y', colors='black')
 plt.ylabel("Batch Symbol Error Rate", fontsize=14, rotation=90, color='black')
 plt.xlabel("SNR [dB]", fontsize=18, color='black')
-plt.legend(['AE Bob', 'AE Eve', 'Secure Bob', 'Secure Eve'],
+plt.legend(['Bob', 'Eve', 'Secure Bob', 'Secure Eve'],
            prop={'size': 13}, loc='upper right');
 plt.grid(True, which="both")
 
